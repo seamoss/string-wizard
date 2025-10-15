@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A powerful string comparison library with advanced algorithms for fuzzy matching, name comparison, and text similarity analysis",
   "type": "module",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "node test.mjs"
   },
