@@ -249,13 +249,19 @@ const compareNames = (a, b) => {
 }
 
 // Named exports
-export { compareStrings, stripDiacritics, sanitizeName, structuralBonus, compareNames }
-
-// Default export for convenience
-export default {
+export {
   compareStrings,
   stripDiacritics,
   sanitizeName,
   structuralBonus,
   compareNames
 }
+
+// // Default export for convenience
+// export default {
+//   compareStrings,
+//   stripDiacritics,
+//   sanitizeName,
+//   structuralBonus,
+//   compareNames
+// }
