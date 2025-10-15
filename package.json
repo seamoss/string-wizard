@@ -1,0 +1,37 @@
+{
+  "name": "string-wizard-9000",
+  "version": "1.0.0",
+  "description": "A powerful string comparison library with advanced algorithms for fuzzy matching, name comparison, and text similarity analysis",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "string",
+    "comparison",
+    "similarity",
+    "fuzzy",
+    "matching",
+    "levenshtein",
+    "jaccard",
+    "name",
+    "text",
+    "algorithm",
+    "diacritics",
+    "normalization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
