@@ -1,5 +1,5 @@
 {
-  "name": "string-wizard",
+  "name": "str-wizard",
   "version": "1.0.0",
   "description": "A powerful string comparison library with advanced algorithms for fuzzy matching, name comparison, and text similarity analysis",
   "type": "module",

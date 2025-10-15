@@ -13,7 +13,7 @@ A powerful string comparison library with advanced algorithms for fuzzy matching
 ## Installation
 
 ```bash
-npm install string-wizard
+npm install str-wizard
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ This package uses ES6 modules. You can import functions using either named impor
 ### Basic String Comparison
 
 ```javascript
-import { compareStrings } from 'string-wizard';
+import { compareStrings } from 'str-wizard';
 
 const score = compareStrings("hello world", "hello there");
 console.log(score); // 0.6 (60% similar)
@@ -35,7 +35,7 @@ console.log(exactMatch); // 1.0 (100% identical)
 ### Name Comparison
 
 ```javascript
-import { compareNames } from 'string-wizard';
+import { compareNames } from 'str-wizard';
 
 // Handles honorifics and suffixes automatically
 const score = compareNames(
@@ -55,7 +55,7 @@ console.log(score2); // ~0.86-0.88
 ### Strip Diacritics
 
 ```javascript
-import { stripDiacritics } from 'string-wizard';
+import { stripDiacritics } from 'str-wizard';
 
 console.log(stripDiacritics("café")); // "cafe"
 console.log(stripDiacritics("áéíóú")); // "aeiou"
@@ -65,7 +65,7 @@ console.log(stripDiacritics("Zürich")); // "Zurich"
 ### Sanitize Names
 
 ```javascript
-import { sanitizeName } from 'string-wizard';
+import { sanitizeName } from 'str-wizard';
 
 console.log(sanitizeName("Mr. John A. Smith, Jr."));
 // "john a smith"
@@ -81,7 +81,7 @@ console.log(sanitizeName("H E Smith"));
 ### Structural Bonus
 
 ```javascript
-import { structuralBonus } from 'string-wizard';
+import { structuralBonus } from 'str-wizard';
 
 // Returns bonus score for structural similarities
 const bonus = structuralBonus("john a smith", "john b smith");
@@ -92,10 +92,10 @@ console.log(bonus); // 0.07 (matching last name + first initial)
 
 ```javascript
 // Named imports (recommended)
-import { compareStrings, compareNames, sanitizeName, stripDiacritics, structuralBonus } from 'string-wizard';
+import { compareStrings, compareNames, sanitizeName, stripDiacritics, structuralBonus } from 'str-wizard';
 
 // Or use default import
-import stringWizard from 'string-wizard';
+import stringWizard from 'str-wizard';
 const score = stringWizard.compareStrings("hello", "hallo");
 ```
 
